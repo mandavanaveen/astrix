@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mandavanaveen.github.io/astrix",
+  "homepage": "https://mandavanaveen.github.io/testingexample",
   "name": "astrix",
   "version": "0.1.0",
   "private": true,
@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.3"
   }
 }
