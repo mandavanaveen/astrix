@@ -1,0 +1,108 @@
+.spacefont{
+  font-family: "Space Grotesk";
+}
+
+.lexfont{
+  font-family: "Lexend";
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 44px;
+}
+
+.c2{
+  margin-top: 5px;
+}
+
+.secolor{
+  background: #15181B;
+}
+
+.text-color{
+  color: rgba(93, 93, 93, 0.8);
+  font-family: "Lexend";
+  font-weight: 900;
+  font-size: 125px;
+  line-height: 118px;
+
+}
+
+.secastrix{
+  font-family: "Lexend";
+  font-weight: 800;
+  
+}
+
+
+.bg-custom-color {
+  background-color: #282B30;
+}
+
+.evecolec{
+  font-family: "Inter";
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.animatebar{
+  font-family: "Krona One";
+}
+
+.collecheading{
+  font-family: "Lexend";
+  font-weight: 700;
+  color: white;
+  font-size: 26px;
+  line-height: 32.5px;
+}
+
+.lexendfont{
+font-family: "Lexend";
+}
+
+.interfont{
+  font-family: "Inter";
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-ticker {
+  animation: ticker 15s linear infinite;
+  animation-fill-mode: forwards;
+}
+
+.back-text {
+  z-index: 1;
+  position: relative; /* Ensure it is positioned relative to the animation */
+}
+
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-out {
+  animation: fadeOut backwards;
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 15.15%, #000000 96.49%);
+}
+
